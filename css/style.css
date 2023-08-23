@@ -1,0 +1,26 @@
+:root {
+  --primary-red: red;
+  --font: 500px;
+}
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('https://images.unsplash.com/photo-1536148935331-408321065b18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80') no-repeat;
+  background-size: 100% 100%;
+  height: 100vh; /* Set the desired height for your container */
+  width: 100%; /* Set the desired width for your container */
+}
+
+.hero {
+  margin-top: 4vh;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  color: white;
+  padding: 10vw;
+  
+}
+#typed {
+  color: var(--primary-red);
+  
+}
