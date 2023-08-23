@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@300&family=Raleway&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+main {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+footer, header {
+  font-family: 'Noto Sans Symbols', sans-serif;
+}
