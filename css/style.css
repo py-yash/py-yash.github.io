@@ -1,6 +1,13 @@
 :root {
-  --primary-red: red;
+  --primary-red: #228B22;
   --font: 500px;
+}
+
+.navbar-brand{
+  background: white;
+  border-radius: 40px;
+  width: 25vw;
+  text-align: center;
 }
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('https://images.unsplash.com/photo-1536148935331-408321065b18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80') no-repeat;
@@ -14,13 +21,23 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+   z-index: 1;
 }
 .text {
   color: white;
   padding: 10vw;
-  
+  position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   z-index: 2; /* Place text container above particles */
+   display: flex;
+   align-items: center; /* Center vertically */
+   justify-content: center;
 }
 #typed {
   color: var(--primary-red);
-  
+  font-weight: bold;
 }
